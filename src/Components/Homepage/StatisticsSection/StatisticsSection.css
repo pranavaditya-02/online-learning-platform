@@ -1,0 +1,19 @@
+.statistics-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  background: #e0f7fa;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat p {
+  margin: 0;
+}

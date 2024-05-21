@@ -1,0 +1,30 @@
+.promotional-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 1rem;
+  background: #f5f5f5;
+}
+
+.promo-content {
+  max-width: 500px;
+}
+
+.promo-content h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.promo-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.promo-content ul li {
+  margin-bottom: 0.5rem;
+}
+
+.promo-image img {
+  max-width: 100%;
+  height: auto;
+}

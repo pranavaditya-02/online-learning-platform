@@ -1,0 +1,41 @@
+/* CategorySection.css */
+.top-categories {
+  text-align: center;
+  padding: 20px;
+}
+
+.categories-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: nowrap;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 50px;
+  padding: 20px;
+  width: 120px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.category p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.category span {
+  font-size: 14px;
+  color: #777;
+}
